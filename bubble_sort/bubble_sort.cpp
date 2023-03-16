@@ -6,7 +6,7 @@ int n;                  //Deklarasi variable n untuk menyimpan banyaknya elemen 
 
 void input() {          //procedure untuk input
     while (true) {      //Looping
-        cout << "Masukan banyaknya elemen padad array : ";              //Output ke layar
+        cout << "Masukan banyaknya elemen pada array : ";              //Output ke layar
         cin >> n;       //Input dari pengguna
         if (n <= 20)    //Jika n kurang dari atau sama dengan 20
             break;      //Keluar dari loop
@@ -41,7 +41,7 @@ void unsorted() {
     cout << endl;                                           //Output baris kosong
     cout << "================================" << endl;     //Output ke layar
     cout << "Element Array yang belum tersusun" << endl;    //Output ke layar
-    cout << "================================" << endl;      //Output ke layar
+    cout << "================================" << endl;     //Output ke layar
     for (int j = 0; j < n; j++) {                           //Looping dengan j dimulai dari 0 hingga n-1
         cout << a[j] << endl;                               //Output ke layar
     }
